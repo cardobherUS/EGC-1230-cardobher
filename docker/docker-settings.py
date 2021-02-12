@@ -5,6 +5,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
         'USER': 'postgres',
+        'PASSWORD': 'postgres',
         'HOST': 'db',
         'PORT': 5432,
     }
@@ -28,6 +29,7 @@ MODULES = [
 ]
 
 BASEURL = 'http://10.5.0.1:8000'
+
 
 APIS = {
     'authentication': 'http://10.5.0.1:8000',
