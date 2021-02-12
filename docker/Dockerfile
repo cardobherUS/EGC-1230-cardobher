@@ -15,6 +15,7 @@ RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
 
+
 # local settings.py
 ADD docker-settings.py /app/decide/local_settings.py
 

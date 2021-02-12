@@ -19,3 +19,4 @@ script:
   - coverage run --branch --source=. ./manage.py test voting --keepdb --with-xunit
   - coverage xml
   - python-codacy-coverage -r coverage.xml
+
